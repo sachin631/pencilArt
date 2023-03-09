@@ -1,14 +1,18 @@
+import React from 'react'
+import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts'
+import Navbar from './components/navbar/Navbar'
+import Portrait from './components/Portrait/Portrait'
+import Praise from './components/Praise/Praise'
 
-import './App.css';
-import Navbar from './components/navbar/Navbar';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1 className='text-red-500'>Manoj Sangwan Sangwan</h1>
+    <>
       <Navbar/>
-    </div>
-  );
+      <Portrait/>
+      <Praise/>
+      <FeaturedProducts/>
+    </>
+  )
 }
 
-export default App;
+export default App

@@ -1,9 +1,32 @@
-import React from 'react'
+import React from "react";
+import {FcSearch} from "react-icons/fc";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <>
+    <section className="flex justify-between items-center bg-slate-900 text-white px-5 py-6 ">
+      <div className="flex justify-center items-center gap-4 ">
+        <div className="cursor-pointer hover:scale-125 ">
+            <figure>
+                <img src="/images/logosubspro.png" className="w-[50px] h-full" alt="HQpencils"/>
+            </figure>
+        </div>
+        <div className="cursor-pointer border-b-2 border-transparent hover:border-blue-500 transitionduration-200 active:text-red-500">HQpencils</div>
+      </div>
+      <div className="flex justify-center items-center h-[100%]">
+        <input type="text" placeholder="Search Art" className=" rounded-l-lg py-1 outline-none text-green-500 px-4"/>
+        <FcSearch className="bg-blue-500 h-[32px] w-[32px] rounded-r-lg px-1"/>
+      </div>
+      <div className="flex justify-center items-center gap-6">
+        <div className="cursor-pointer  border-b-2 border-transparent hover:border-blue-500 transition duration-200 active:text-red-500">Home</div>
+        <div className="cursor-pointer  border-b-2 border-transparent hover:border-blue-500 transition duration-200 active:text-red-500">Shop</div>
+        <div className="cursor-pointer  border-b-2 border-transparent hover:border-blue-500 transition duration-200 active:text-red-500">About</div>
+        <div className="cursor-pointer  border-b-2 border-transparent hover:border-blue-500 transition duration-200 active:text-red-500">LogIN</div>
+        <div className="cursor-pointer  border-b-2 border-transparent hover:border-blue-500 transition duration-200 active:text-red-500">CreateAccount</div>
+      </div>
+      </section>
+    </>
+  );
+};
 
-export default Navbar
+export default Navbar;
