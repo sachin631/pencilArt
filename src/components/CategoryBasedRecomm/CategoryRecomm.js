@@ -1,23 +1,22 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-// import { CiStar } from "react-icons/ci";
 
-const FeaturedProducts = () => {
+const CategoryRecomm = () => {
   return (
     <>
+      <section>
       <section className="mt-6 container mx-auto pb-4 ">
         <h1 className="text-center font-bold text-[36px]">Featured Products</h1>
         <h1 className="text-center font-bold text-[36px] text-blue-500">
-          Some Sketches People Love Most
+         You may Also Like These Products
         </h1>
         <div className="flex justify-between mx-4 items-center mt-4">
           <div className=" py-2 px-2 flex flex-col justify-center items-center gap-2 border-[2px] border-solid border-black">
             <figure className="border-[2px] border-solid border-black">
-            <NavLink to="particularproduct"><img
+           <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
                 className="w-[200px]  h-[200px] active:scale-105 "
-              /></NavLink>  
+              />
             </figure>
             <div className="flex justify-center items-center">
               <figure className="flex justify-center items-center">
@@ -59,11 +58,11 @@ const FeaturedProducts = () => {
           </div>
           <div className=" py-2 px-2 flex flex-col justify-center items-center gap-2 border-[2px] border-solid border-black">
             <figure className="border-[2px] border-solid border-black">
-            <NavLink to="particularproduct"><img
+            <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
                 className="w-[200px]  h-[200px] active:scale-105 "
-              /></NavLink>  
+              />  
             </figure>
             <div className="flex justify-center items-center">
               <figure className="flex justify-center items-center">
@@ -105,11 +104,11 @@ const FeaturedProducts = () => {
           </div>
           <div className="py-2 px-2 flex flex-col justify-center items-center gap-2 border-[2px] border-solid border-black">
             <figure className="border-[2px] border-solid border-black">
-            <NavLink to="particularproduct"><img
+           <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
                 className="w-[200px]  h-[200px] active:scale-105 "
-              /></NavLink>  
+              />
             </figure>
             <div className="flex justify-center items-center">
               <figure className="flex justify-center items-center">
@@ -151,11 +150,11 @@ const FeaturedProducts = () => {
           </div>
           <div className="py-2 px-2 flex flex-col justify-center items-center gap-2 border-[2px] border-solid border-black">
             <figure className="border-[2px] border-solid border-black">
-            <NavLink to="particularproduct"><img
+            <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
                 className="w-[200px]  h-[200px] active:scale-105 "
-              /></NavLink>  
+              />
             </figure>
             <div className="flex justify-center items-center">
               <figure className="flex justify-center items-center">
@@ -197,8 +196,9 @@ const FeaturedProducts = () => {
           </div>
         </div>
       </section>
+      </section>
     </>
   );
 };
 
-export default FeaturedProducts;
+export default CategoryRecomm;
