@@ -10,13 +10,13 @@ const FeaturedProducts = () => {
         <h1 className="text-center font-bold text-[36px] text-blue-500">
           Some Sketches People Love Most
         </h1>
-        <div className="flex justify-between mx-4 items-center mt-4">
+        <div className="flex md:flex-row flex-col gap-4 justify-between mx-4 items-center mt-4">
           <div className=" py-2 px-2 flex flex-col justify-center items-center gap-2 border-[2px] border-solid border-black">
             <figure className="border-[2px] border-solid border-black">
             <NavLink to="particularproduct"><img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[60vw]  h-[200px] active:scale-105 "
               /></NavLink>  
             </figure>
             <div className="flex justify-center items-center">
@@ -62,7 +62,7 @@ const FeaturedProducts = () => {
             <NavLink to="particularproduct"><img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[60vw] h-[200px] active:scale-105 "
               /></NavLink>  
             </figure>
             <div className="flex justify-center items-center">
@@ -108,7 +108,7 @@ const FeaturedProducts = () => {
             <NavLink to="particularproduct"><img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[60vw]  h-[200px] active:scale-105 "
               /></NavLink>  
             </figure>
             <div className="flex justify-center items-center">
@@ -154,7 +154,7 @@ const FeaturedProducts = () => {
             <NavLink to="particularproduct"><img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[60vw] h-[200px] active:scale-105 "
               /></NavLink>  
             </figure>
             <div className="flex justify-center items-center">
