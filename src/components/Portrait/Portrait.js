@@ -15,7 +15,7 @@ const Portrait = () => {
               <button className="bg-green-500 px-4 py-4 rounded-lg active:text-red-500 text-white mt-4">Order Now</button>
             </div>
           </div>
-          <div className="pb-3 mx-auto">
+          <div className="pb-3 mx-auto md:order-2 order-1">
             <figure className=" border-[4px] border-solid border-black rounded-md">
                 <img src="/images/Background2.png" alt="custom portrait" className="md:w-[300px] w-[70vw]  "/>
             </figure>
