@@ -7,7 +7,7 @@ const ParticularProduct = () => {
   return (
     <>
       <section>
-        <div className="main flex justify-center items-center gap-10 mt-6 ">
+        <div className="main flex md:flex-row flex-col justify-center items-center gap-10 mt-6 ">
           <div className="left">
             <div className="topPic">
               <figure className=" border-black border-[3px]">
@@ -69,7 +69,7 @@ const ParticularProduct = () => {
               </figure>
             </div>
           </div>
-          <div className="right w-[50%] flex flex-col justify-center items-start gap-3">
+          <div className="right md:w-[50%] w-[60%] flex flex-col justify-center items-start gap-3">
             <div className="font-bold">Home/Category_Name</div>
             <div>Product name</div>
             <div className="font-bold">₹ 12000</div>

@@ -5,7 +5,7 @@ const Praise = () => {
     <>
       <section className="mt-6 container mx-auto ">
         <h1 className="text-center font-bold text-[36px]">Why US</h1>
-        <div className="flex md:flex-row flex-col gap-2 justify-between mx-4 items-center mt-4">
+        <div className="flex md:flex-row flex-col gap-4 justify-between mx-4 items-center mt-4">
           <div className="py-2 px-2 flex flex-col justify-center items-center gap-4 border-[2px] border-solid border-black">
             <figure >
               <img

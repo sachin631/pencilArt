@@ -5,17 +5,17 @@ const CategoryRecomm = () => {
     <>
       <section>
       <section className="mt-6 container mx-auto pb-4 ">
-        <h1 className="text-center font-bold text-[36px]">Featured Products</h1>
-        <h1 className="text-center font-bold text-[36px] text-blue-500">
+        <h1 className="text-center font-bold md:text-[36px] text-[20px]">Featured Products</h1>
+        <h1 className="text-center font-bold text-[36px] text-[20px] text-blue-500">
          You may Also Like These Products
         </h1>
-        <div className="flex justify-between mx-4 items-center mt-4">
+        <div className="flex md:flex-row gap-4 flex-col justify-between  items-center mt-4">
           <div className=" py-2 px-2 flex flex-col justify-center items-center gap-2 border-[2px] border-solid border-black">
             <figure className="border-[2px] border-solid border-black">
            <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[70vw]  h-[200px] active:scale-105 "
               />
             </figure>
             <div className="flex justify-center items-center">
@@ -61,7 +61,7 @@ const CategoryRecomm = () => {
             <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[70vw]  h-[200px] active:scale-105 "
               />  
             </figure>
             <div className="flex justify-center items-center">
@@ -107,7 +107,7 @@ const CategoryRecomm = () => {
            <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[70vw]  h-[200px] active:scale-105 "
               />
             </figure>
             <div className="flex justify-center items-center">
@@ -153,7 +153,7 @@ const CategoryRecomm = () => {
             <img
                 src="/images/Background2.png"
                 alt="Best Quality Portrait "
-                className="w-[200px]  h-[200px] active:scale-105 "
+                className="md:w-[200px] w-[70vw]  h-[200px] active:scale-105 "
               />
             </figure>
             <div className="flex justify-center items-center">

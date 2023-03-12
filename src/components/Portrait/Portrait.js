@@ -3,7 +3,7 @@ import React from "react";
 const Portrait = () => {
   return (
     <>
-      <section className="mt-6 container mx-auto bg-blue-500 text-white p-3">
+      <section className="mt-6 container mx-auto  w-[96vw] bg-blue-500 text-white p-3 ">
         <h1 className="font-bold text-center text-[30px] tracking-wide">Custom Sketch</h1>
         <div className="flex md:flex-row flex-col justify-center items-start gap-[20%] mt-4">
           <div className="md:order-1 order-2 flex justify-center items-center flex-col mx-auto">
